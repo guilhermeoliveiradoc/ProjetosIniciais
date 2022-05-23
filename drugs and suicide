@@ -1,0 +1,65 @@
+# Exploring data on suicide and drugs
+
+## Introduction
+The main idea of this project was to explore data on suicide and drug seizures around the world. The questions I wanted to answer were:  1) How is the behaviour of the seizures during the last years?;  2) how are the suicide rates changing in the past years;  3) is there a correlation between the drug seizures and the change in suicides?;  4) is there a correlation between alcohol consunption and suicides?
+
+The countries chosen to explore this data were Brazil, Argentina and Chile.
+
+
+
+
+
+
+## Processing the data
+
+I used three databases to make this analysis: the world suicide rates (WHO), the drug seizures anually (UN), and the general health database.
+
+I first cleaned up the data, and agregated it by country/ drug type/ year, so that I could have a nice view of it. After that I treated the "NA" data, and started to build the graphs and the correlations.
+
+
+
+## Results
+
+Chile was the country that presented less seizures, with a descendent behaviour for all three drugs analysed. The country also experienced a fall in the suicide rates in the last year, but it is still the population with the highest rate between the three of them.
+
+Brazil had experienced a growth in all drug's seizures, and is the country that has the greatest cannabis volume seizured. It has seen the suicide rates ramp up since 2011, but it is still the country that has the lowest rate.
+
+Argentina did no see great changes on it's suicide rates, and it experienced a general rise on the seizures during this years.
+
+The correlations maps did not present a strong correlation between the alcohol use ("First Tooltip" on heatmaps) and suicide rates.
+
+Suicide rates and seizures presented a positive correlation in Brazil, and in Argentina (in this case smaller).
+
+The alcohol consunption and the seizres were positive correlated in all the countries, strongly observed in Argentina.
+
+
+#Sources
+
+https://revistas.udec.cl/index.php/gyap/article/view/5488
+https://www.minsal.cl/sites/default/files/Programa_Nacional_Prevencion.pdf
+https://injuryprevention.bmj.com/content/27/2/194
+http://revistas.unla.edu.ar/saludcolectiva/article/view/3363  https://www.tandfonline.com/doi/full/10.1081/ADA-100107665
+https://onlinelibrary.wiley.com/doi/abs/10.1080/09595230500170274
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8007116/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153138/pdf/3200843.pdf
+https://ourworldindata.org/grapher/suicide-mortality-rate
+https://dataunodc.un.org/
+
+
+
+
+
+
+
+
+
+## References
+1. https://observatoriocrianca.org.br/cenario-infancia/temas/sobrevivencia-infantil-infancia/676-proporcao-de-obitos-de-menores-de-um-ano-de-idade-por-causas-claramente-evitaveis?filters=1,282;4,282
+2. https://observatoriocrianca.org.br/cenario-infancia/temas/sobrevivencia-infantil-infancia/615-numero-de-nascidos-vivos?filters=1,229
+3. https://observatoriocrianca.org.br/cenario-infancia/temas/sobrevivencia-infantil-infancia/728-numero-de-nascidos-vivos-cujas-maes-fizeram-sete-ou-mais-consultas-de-pre-natal-segundo-anos-de-estudo-da-mae?filters=1,1043;20,1043
+4. https://amb.org.br/wp-content/uploads/2018/03/DEMOGRAFIA-M%C3%89DICA.pdf
+5. https://www.imb.go.gov.br/files/docs/publicacoes/informes-tecnicos/2018/12-mortes-evitaveis-na-infancia-201810.pdf
+6. https://www.poder360.com.br/coronavirus/covid-esta-entre-maiores-causas-de-morte-de-5-a-11-anos/
+7. https://www.imb.go.gov.br/files/docs/publicacoes/informes-tecnicos/2018/12-mortes-evitaveis-na-infancia-201810.pdf
+8. https://saude.estadao.com.br/noticias/geral,pelo-menos-44-das-mortes-de-criancas-sao-por-doencas-evitaveis-diz-estudo,70003883521
+9. https://piaui.folha.uol.com.br/materia/os-pequenos-que-se-foram/
